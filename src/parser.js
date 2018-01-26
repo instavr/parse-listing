@@ -28,7 +28,7 @@
 
 var RE_UnixEntry = new RegExp(
   "([bcdlfmpSs-])"
-    + "(((r|-)(w|-)([xsStTL-]))((r|-)(w|-)([xsStTL-]))((r|-)(w|-)([xsStTL-])))\\+?\\s+"
+    + "(((r|-)(w|-)([xsStTL-]))((r|-)(w|-)([xsStTL-]))((r|-)(w|-)([xsStTL-])))(?:@?)\\+?\\s+"
     + "(\\d+)\\s+"
     + "(\\S+)\\s+"
     + "(?:(\\S+)\\s+)?"
